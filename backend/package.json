@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "latest",
+    "express": "latest",
+    "jsdom": "latest",
+    "cors": "latest"
+  }
+}
