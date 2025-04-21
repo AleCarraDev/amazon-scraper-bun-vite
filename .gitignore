@@ -1,0 +1,39 @@
+# 📦 Node.js & Bun
+node_modules/
+.bun/
+bun.lockb
+*.log
+
+# 🛠 Build e cache
+dist/
+.vite/
+.cache/
+build/
+
+# 🐳 Docker
+*.pid
+*.tar
+docker-compose.override.yml
+
+# 🧪 Testes e cobertura
+coverage/
+jest-*
+
+# 💻 IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🐙 Git
+.DS_Store
+*.orig
+
+# 🔐 Env (para usar no futuro)
+.env
+.env.local
+.env.*.local
+
+# 📑 Sistema
+Thumbs.db
+desktop.ini

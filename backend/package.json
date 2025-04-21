@@ -1,8 +1,13 @@
 {
   "dependencies": {
     "axios": "latest",
+    "cors": "latest",
     "express": "latest",
-    "jsdom": "latest",
-    "cors": "latest"
+    "jsdom": "latest"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/jsdom": "^21.1.7"
   }
 }

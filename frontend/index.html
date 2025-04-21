@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +8,31 @@
   </head>
   <body>
     <div class="container">
-      <h1>Amazon Product Scraper</h1>
+      <h1>Search for Amazon products</h1>
       <input type="text" id="keyword" placeholder="Enter a keyword..." />
-      <button onclick="scrape()">Search</button>
+      <button id="searchBtn">Buscar</button>
+      <div id="loading" class="hidden">Loading...</div>
+      <div id="error" class="hidden">An error occurred. Please try again.</div>
+      <div id="noResults" class="hidden">No results found.</div>
+      <div id="resultsContainer" class="hidden">
+        <h2>Search Results</h2>
+        <ul id="resultsList"></ul>
+        <div id="pagination">
+          <button id="prevBtn" class="hidden">Página anterior</button>
+          <button id="nextBtn" class="hidden">Próxima página</button>
+        </div>
+        <div id="pageInfo" class="hidden"></div>
+        <div id="totalResults" class="hidden"></div>
+        <div id="totalPages" class="hidden"></div>
+        <div id="currentPage" class="hidden"></div>
+        <div id="itemsPerPage" class="hidden"></div>
+        <div id="totalItems" class="hidden"></div>
+        <div id="totalPagesCount" class="hidden"></div>
+        <div id="currentPageCount" class="hidden"></div>
+        <div id="itemsPerPageCount" class="hidden"></div>
+        <div id="totalItemsCount" class="hidden"></div>
+        <div id="totalResultsCount" class="hidden"></div>
+        <div id="totalPagesCount" class="hidden"></div>
       <div id="results"></div>
     </div>
     <script type="module" src="./main.js"></script>
