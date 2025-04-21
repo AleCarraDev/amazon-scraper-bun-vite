@@ -47,7 +47,7 @@ docker compose up --build
 ```
 
 - Acesse o frontend: http://localhost:5173  
-- A API do backend estará em: http://localhost:3001/api/scrape?keyword=mouse
+- A API do backend estará em: http://localhost:3001/api/scrape
 
 ---
 
