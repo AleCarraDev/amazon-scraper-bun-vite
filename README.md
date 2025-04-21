@@ -24,9 +24,8 @@ Scraper full-stack para produtos da Amazon utilizando **Bun no backend** e **Vit
 
 ## 🖼️ Preview
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/scraper-preview.png" width="700" alt="Amazon Scraper Preview">
-</p>
+![Uploading image.png…]()
+
 
 ---
 
